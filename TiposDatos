@@ -1,0 +1,37 @@
+package com.example;
+
+public class TipoDatos {
+
+    public static void main(String[] args) {
+
+        //Enteros
+        int Dato1 = 18;
+        byte Dato2 = 5;
+        short Dato3 = 7;
+        long Dato4 = 150;
+
+        System.out.println("Numeros enteros: " + Dato1 + ", " + Dato2 + ", " + Dato3 + ", " + Dato4 );
+
+        //Boolean
+        boolean B = true;
+        boolean A = false;
+
+        //Decimales
+        float Dato5 = 17.6f;
+        double Dato6 = 18.76d;
+
+        System.out.println("Numeros decimales: " + Dato5 + ", " + Dato6);
+
+        //Cadenas de texto
+        String Dato7 = "Esta es mi prueba";
+
+        System.out.println(Dato7);
+
+        //caracter
+        char Dato8 = 'a';
+
+        System.out.println("Caracter: " + Dato8);
+
+
+    }
+}
